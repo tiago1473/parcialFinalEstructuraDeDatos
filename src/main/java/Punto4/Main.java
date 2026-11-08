@@ -58,7 +58,7 @@ public class Main {
         int cantidad4 = laboratorio1.consultarEquipo(12,8);
         System.out.println("Cantidad de equipos: " + cantidad4);
 
-        System.out.println("_______________");
+        System.out.println("________________");
 
 
 

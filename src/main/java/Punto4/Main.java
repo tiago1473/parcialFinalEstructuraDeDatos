@@ -20,10 +20,49 @@ public class Main {
         System.out.println("\n");
         System.out.println("_______________");
 
+        System.out.println("rango (8,12)");  /// Rango (8,12)
         int cantidad = laboratorio1.consultarEquipo(8,12);
         System.out.println("Cantidad de equipos: " + cantidad);
 
         System.out.println("_______________");
+
+        laboratorio1.imprimirArbolInOrden();
+
+        System.out.println("\n");
+        System.out.println("_______________");
+
+        System.out.println("rango (14,20)");  /// Rango (14,20)
+        int cantidad2 = laboratorio1.consultarEquipo(14,20);
+        System.out.println("Cantidad de equipos: " + cantidad2);
+
+        System.out.println("_______________");
+
+        laboratorio1.imprimirArbolInOrden();
+
+        System.out.println("\n");
+        System.out.println("_______________");
+
+        System.out.println("rango (10,10)");  /// Rango (10,10)
+        int cantidad3 = laboratorio1.consultarEquipo(10,10);
+        System.out.println("Cantidad de equipos: " + cantidad3);
+
+        System.out.println("_______________");
+
+
+        laboratorio1.imprimirArbolInOrden();
+
+        System.out.println("\n");
+        System.out.println("_______________");
+
+        System.out.println("rango (12,8)");
+        int cantidad4 = laboratorio1.consultarEquipo(12,8);
+        System.out.println("Cantidad de equipos: " + cantidad4);
+
+        System.out.println("_______________");
+
+
+
+
 
         /// _________________________________________
 
